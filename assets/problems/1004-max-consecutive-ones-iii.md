@@ -1,0 +1,53 @@
+---
+id: 1004
+title: "Max Consecutive Ones III"
+slug: max-consecutive-ones-iii
+difficulty: Medium
+tags: [Array, Binary Search, Sliding Window, Prefix Sum]
+neetcode150_category: null
+blind75_category: null
+date_solved: null
+languages: [golang, typescript]
+time_complexity: null
+space_complexity: null
+---
+
+# Max Consecutive Ones III
+
+Given a binary array `nums` and an integer `k`, return _the maximum number of consecutive_ `1`_'s in the array if you can flip at most_ `k` `0`'s.
+
+**Example 1:**
+
+**Input:** nums = \[1,1,1,0,0,0,1,1,1,1,0\], k = 2
+**Output:** 6
+**Explanation:** \[1,1,1,0,0,**1**,1,1,1,1,**1**\]
+Bolded numbers were flipped from 0 to 1. The longest subarray is underlined.
+
+**Example 2:**
+
+**Input:** nums = \[0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1\], k = 3
+**Output:** 10
+**Explanation:** \[0,0,1,1,**1**,**1**,1,1,1,**1**,1,1,0,0,0,1,1,1,1\]
+Bolded numbers were flipped from 0 to 1. The longest subarray is underlined.
+
+**Constraints:**
+
+*   `1 <= nums.length <= 105`
+*   `nums[i]` is either `0` or `1`.
+*   `0 <= k <= nums.length`
+
+## Code Template
+
+### Go
+```go
+func longestOnes(nums []int, k int) int {
+    
+}
+```
+
+### TypeScript
+```typescript
+function longestOnes(nums: number[], k: number): number {
+    
+};
+```

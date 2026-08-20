@@ -1,0 +1,58 @@
+---
+id: 921
+title: "Minimum Add to Make Parentheses Valid"
+slug: minimum-add-to-make-parentheses-valid
+difficulty: Medium
+tags: [String, Stack, Greedy]
+neetcode150_category: null
+blind75_category: null
+date_solved: null
+languages: [golang, typescript]
+time_complexity: null
+space_complexity: null
+---
+
+# Minimum Add to Make Parentheses Valid
+
+A parentheses string is valid if and only if:
+
+*   It is the empty string,
+*   It can be written as `AB` (`A` concatenated with `B`), where `A` and `B` are valid strings, or
+*   It can be written as `(A)`, where `A` is a valid string.
+
+You are given a parentheses string `s`. In one move, you can insert a parenthesis at any position of the string.
+
+*   For example, if `s = "()))"`, you can insert an opening parenthesis to be `"(**(**)))"` or a closing parenthesis to be `"())**)**)"`.
+
+Return _the minimum number of moves required to make_ `s` _valid_.
+
+**Example 1:**
+
+**Input:** s = "())"
+**Output:** 1
+
+**Example 2:**
+
+**Input:** s = "((("
+**Output:** 3
+
+**Constraints:**
+
+*   `1 <= s.length <= 1000`
+*   `s[i]` is either `'('` or `')'`.
+
+## Code Template
+
+### Go
+```go
+func minAddToMakeValid(s string) int {
+    
+}
+```
+
+### TypeScript
+```typescript
+function minAddToMakeValid(s: string): number {
+    
+};
+```
