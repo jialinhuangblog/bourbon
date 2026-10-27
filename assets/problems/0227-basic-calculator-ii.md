@@ -1,0 +1,62 @@
+---
+id: 227
+title: "Basic Calculator II"
+slug: basic-calculator-ii
+difficulty: Medium
+tags: [Math, String, Stack]
+neetcode150_category: null
+blind75_category: null
+date_solved: null
+languages: [golang, typescript]
+time_complexity: null
+space_complexity: null
+---
+
+# Basic Calculator II
+
+Given a string `s` which represents an expression, _evaluate this expression and return its value_. 
+
+The integer division should truncate toward zero.
+
+You may assume that the given expression is always valid. All intermediate results will be in the range of `[-231, 231 - 1]`.
+
+**Note:** You are not allowed to use any built-in function which evaluates strings as mathematical expressions, such as `eval()`.
+
+**Example 1:**
+
+**Input:** s = "3+2\*2"
+**Output:** 7
+
+**Example 2:**
+
+**Input:** s = " 3/2 "
+**Output:** 1
+
+**Example 3:**
+
+**Input:** s = " 3+5 / 2 "
+**Output:** 5
+
+**Constraints:**
+
+*   `1 <= s.length <= 3 * 105`
+*   `s` consists of integers and operators `('+', '-', '*', '/')` separated by some number of spaces.
+*   `s` represents **a valid expression**.
+*   All the integers in the expression are non-negative integers in the range `[0, 231 - 1]`.
+*   The answer is **guaranteed** to fit in a **32-bit integer**.
+
+## Code Template
+
+### Go
+```go
+func calculate(s string) int {
+    
+}
+```
+
+### TypeScript
+```typescript
+function calculate(s: string): number {
+    
+};
+```

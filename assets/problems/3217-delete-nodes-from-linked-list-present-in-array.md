@@ -1,0 +1,97 @@
+---
+id: 3217
+title: "Delete Nodes From Linked List Present in Array"
+slug: delete-nodes-from-linked-list-present-in-array
+difficulty: Medium
+tags: [Array, Hash Table, Linked List]
+neetcode150_category: null
+blind75_category: null
+date_solved: null
+languages: [golang, typescript]
+time_complexity: null
+space_complexity: null
+---
+
+# Delete Nodes From Linked List Present in Array
+
+You are given an array of integers `nums` and the `head` of a linked list. Return the `head` of the modified linked list after **removing** all nodes from the linked list that have a value that exists in `nums`.
+
+**Example 1:**
+
+**Input:** nums = \[1,2,3\], head = \[1,2,3,4,5\]
+
+**Output:** \[4,5\]
+
+**Explanation:**
+
+**![](https://assets.leetcode.com/uploads/2024/06/11/linkedlistexample0.png)**
+
+Remove the nodes with values 1, 2, and 3.
+
+**Example 2:**
+
+**Input:** nums = \[1\], head = \[1,2,1,2,1,2\]
+
+**Output:** \[2,2,2\]
+
+**Explanation:**
+
+![](https://assets.leetcode.com/uploads/2024/06/11/linkedlistexample1.png)
+
+Remove the nodes with value 1.
+
+**Example 3:**
+
+**Input:** nums = \[5\], head = \[1,2,3,4\]
+
+**Output:** \[1,2,3,4\]
+
+**Explanation:**
+
+**![](https://assets.leetcode.com/uploads/2024/06/11/linkedlistexample2.png)**
+
+No node has value 5.
+
+**Constraints:**
+
+*   `1 <= nums.length <= 105`
+*   `1 <= nums[i] <= 105`
+*   All elements in `nums` are unique.
+*   The number of nodes in the given list is in the range `[1, 105]`.
+*   `1 <= Node.val <= 105`
+*   The input is generated such that there is at least one node in the linked list that has a value not present in `nums`.
+
+## Code Template
+
+### Go
+```go
+/**
+ * Definition for singly-linked list.
+ * type ListNode struct {
+ *     Val int
+ *     Next *ListNode
+ * }
+ */
+func modifiedList(nums []int, head *ListNode) *ListNode {
+    
+}
+```
+
+### TypeScript
+```typescript
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     val: number
+ *     next: ListNode | null
+ *     constructor(val?: number, next?: ListNode | null) {
+ *         this.val = (val===undefined ? 0 : val)
+ *         this.next = (next===undefined ? null : next)
+ *     }
+ * }
+ */
+
+function modifiedList(nums: number[], head: ListNode | null): ListNode | null {
+    
+};
+```
